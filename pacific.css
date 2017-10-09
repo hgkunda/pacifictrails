@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff;
+  color: #666666;
+}
+
+header {
+  background-color: #000033;
+  color: #ffffff;
+}
+
+nav {
+  background-color: #90c7e3;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #3399cc;
+}
+
+dt {
+  color: #000033;
+}
+
+.resort {
+  color: #5c7fa3;
+}
+
+/*The assignment did not say to also make the yurts.html header heading aka h2 margin-bottom:0; but it seemed to imply it should be also look like index.html its header heading aka h1 as margin-bottom:0; - I did it for consistency's sake even if it was not in the assignment*/
+
+header h2 {
+  margin-bottom: 0;
+}
