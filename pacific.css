@@ -27,9 +27,3 @@ dt {
 .resort {
   color: #5c7fa3;
 }
-
-/*The assignment did not say to also make the yurts.html header heading aka h2 as margin-bottom:0; - But it seemed to imply the yurts.html header should also look like the index.html header heading aka h1 as margin-bottom:0; - I did the following to keep the styling consistent even if though was not in the assignment*/
-
-header h2 {
-  margin-bottom: 0;
-}
