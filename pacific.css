@@ -202,3 +202,35 @@ footer {
 }
 
 /*MOBILE DISPLAY*/
+
+@media only screen and (max-width: 37.5em) {
+  main {
+    padding: 0.1em 1em;
+    font-size: 90%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  nav {
+    padding: 0;
+  }
+  nav li {
+    display: block;
+    margin: 0;
+    border-bottom: 2px solid #330000;
+  }
+  nav a {
+    display: block;
+  }
+  #homehero, #yurthero, #trailhero {
+    display: none;
+    background-image: none;
+    height: 0;
+  }
+  #mobile {
+    display: inline;
+  }
+  #desktop {
+    display: none;
+  }
+}
