@@ -104,6 +104,28 @@ dt {
   color: #000033;
 }
 
+table {
+  border: 2px solid #3399cc;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5em;
+  border: 2px solid #3399cc;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #f5fafc;
+}
+
+.text {
+  text-align: left;
+}
+
 footer {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 75%;
